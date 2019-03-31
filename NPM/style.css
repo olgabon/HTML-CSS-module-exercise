@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background-color: #C12127;
+    height: 50px;
+    padding: 15px;
+    margin: 0;
+    color: white;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+.top-links{
+    padding: 0;
+    margin: 0;
+}
+.top-links li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    align-items: center;
+}
+.top-left {
+    display: inline-block;
+    align-items: center;
+}
+.heart{
+    margin-right: 15px;
+}
+header {
+    background-image: url(./images/city-scape.svg);
+    background-size: cover;
+    background-color: rgb(32, 90, 123);
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.search-container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.log-in{
+    display: flex;
+    align-items: center;
+}
+.log-in a{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+.search-content{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.search-content input{
+    width: 100%;
+    margin-left: 15px;
+    height: 30px;
+    border: none;
+    background-color: rgb(31, 82, 111);
+    padding: 0;
+}
+.search-content button{
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: rgb(31, 82, 111);
+}
+.things{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.things-content{
+    display: block;
+    color: white;
+    width: 70%;
+}
+.things-content p{
+    width: 70%;
+    line-height: 25px;
+}
+.things-content h1{
+font-size: 3em;
+font-weight: lighter;
+margin: auto;
+}
+.things-content button{
+background-color: rgb(240, 146, 51);
+border: none;
+height: 40px;
+width: 150px;
+color: white;
+font-size: 16px;
+border-radius: 40px;
+margin-top: 20px;
+}
+.section1{
+    background-color: rgb(39, 53, 71);
+}
+.section1-c{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section1-c img{
+    width: 50%;
+}
+.collab{
+    width: 45%;
+    color: white;
+}
+.collab h2{
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin: 0;
+}
+.collab li{
+    line-height: 25px;  
+}
+.collab button{
+    background-color: rgb(203, 56, 55);
+    border: none;
+height: 40px;
+width: 150px;
+color: white;
+font-size: 16px;
+border-radius: 40px;
+margin-top: 20px;
+margin-bottom: 15px;
+}
+.collab a{
+    color: white;
+    text-decoration: none;
+}
+.section2{
+    background-image: url(./images/forklift.svg);
+    background-size: cover;
+    position: relative;
+}
+.section2-c{
+    width: 80%;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    display: block;
+    color: white;
+    margin: 0 auto;
+}
+.section2-c h2{
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+.section2-c p{
+    width: 50%;
+    line-height: 25px;
+}
+.section2-c button{
+    background-color: rgb(49, 68, 88);
+    border: none;
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-size: 16px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.section3{
+    background: white;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    padding-top: 60px;
+    display: block;
+}
+.articles{
+    width: 100%;
+    height: 300px;
+    align-items: center;
+}
+.box1{
+    width: 33%;
+    float: left;
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+.box1 p{
+    color: rgb(135, 145, 156);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.box1 h3{
+    color: rgb(83, 88, 98);
+}
+.box2{
+    width: 34%;
+    float: right;
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+.box2 p{
+    color: rgb(135, 145, 156);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.box2 h3{
+    color: rgb(83, 88, 98);
+}
+.box3{
+    width: 33%;
+    float: right;
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+.box3 p{
+    color: rgb(135, 145, 156);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.box3 h3{
+    color: rgb(83, 88, 98);
+}
+.section3-t {
+    text-align: center;
+}
+.section3-t h2{
+    font-size: 2.5em;
+    color: rgb(83, 88, 98);
+    font-weight: lighter;
+}
+.section3-t p{
+    color: rgb(135, 145, 156);
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.box1 a{
+    color: rgb(208, 74, 73);
+}
